@@ -126,7 +126,7 @@
     #define FR_PREHEAT_BOTH         "Global"
     #define FR_PREHEAT_PLA          "PLA"
     #define FR_PREHEAT_PETG         "PETG"
-    #define FR_PREHEAT_ABS          "ABS"
+    #define FR_PREHEAT_ABS          "Zboubby"
     #define FR_PREHEAT_CUSTOM1      "Prédéfini 1"
     #define FR_PREHEAT_CUSTOM2      "Prédéfini 2"
     #define FR_IS_PAUSE             "Extrusion impossible quand l’impression est en cours, mettre impression en pause ?"
