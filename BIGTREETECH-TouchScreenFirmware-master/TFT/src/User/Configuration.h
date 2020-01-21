@@ -129,7 +129,7 @@
 
 // Invert the Y Axis move Direction
 // this does not work if LIST MODE is enabled. To invert y axis in LIST MODE go to setting->feature settings
-//#define INVERT_YAXIS
+#define INVERT_YAXIS
 
 //Invert the Z Axis move Direction
 // this does not work if LIST MODE is enabled. To invert z axis in LIST MODE go to setting->feature settings
@@ -144,7 +144,7 @@
  * It is friendly to display long file name, but the model preview feature is not available
  * Disable this if you want to use the model preview feature
  */
-#define MENU_LIST_MODE
+//#define MENU_LIST_MODE
 
 
 //-------RESET SETTINGS & TOUCH SCREEN CALIBRATION------||
