@@ -29,7 +29,7 @@
 //===========================================================================
 
 // Show BTT bootscreen when starting up
-#define SHOW_BTT_BOOTSCREEN
+//#define SHOW_BTT_BOOTSCREEN
 
 // TFT mode color
 #define TITLE_BACKGROUND_COLOR      BLACK  // Title background color // 0xD928
