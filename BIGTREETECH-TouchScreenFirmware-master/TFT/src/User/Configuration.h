@@ -46,7 +46,7 @@
 //                       PLA      PETG       ABS
 #define PREHEAT_BED      {60,      70,       100}
 #define PREHEAT_HOTEND   {215,     250,      230}
-#define PREHEAT_TEXT     {"PLA",  "PETG",   "ABS"}
+#define PREHEAT_TEXT     {"PLA",  "PETG",   "toppy"}
 
 #define HEAT_MAX_TEMP    {150,    275,       275,       275,       275,       275,       275}    //max temperature can be set
 #define HEAT_SIGN_ID     {"B:",   "T0:",     "T1:",     "T2:",     "T3:",     "T4:",     "T5:"}
@@ -133,7 +133,7 @@
 
 //Invert the Z Axis move Direction
 // this does not work if LIST MODE is enabled. To invert z axis in LIST MODE go to setting->feature settings
-//#define INVERT_ZAXIS
+#define INVERT_ZAXIS
 
 // Enable Unified Move Menu
 // Move, Home, Extrude, ABL at one Place and bring Gcode Menu on Home Menu
