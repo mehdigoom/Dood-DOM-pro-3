@@ -3,7 +3,7 @@
 #
 applet/
 *.DS_Store
-
+.vscode
 #
 # Misc
 #
