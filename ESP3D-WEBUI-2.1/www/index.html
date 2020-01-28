@@ -44,6 +44,8 @@
         </center>
     </div>
     <div id="main_ui" class="container-fluid hide_it">
+        <!-- Testbtn -->
+        <input type="button" value="test" onclick="SendPrinterCommand('G28', true);">
         <!-- topnavbar -->
         <file-include w3-include-html="'sub/navbar.html'"></file-include>
         <!-- /topnavbar -->
@@ -76,6 +78,7 @@
     <file-include w3-include-html="'sub/preferencesdlg.html'"></file-include>
     <file-include w3-include-html="'sub/restartdlg.html'"></file-include>
     <file-include w3-include-html="'sub/UIdisableddlg.html'"></file-include>
+    
     <!-- / template -->
     <!--removeIf(cleanheader)-->
     <script src="js/wizard.js"></script>
