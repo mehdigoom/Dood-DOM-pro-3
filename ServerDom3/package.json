@@ -1,0 +1,15 @@
+{
+  "name": "serverdom3",
+  "version": "1.0.0",
+  "description": "Server online for DoodDomPro3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start.js"
+  },
+  "author": "Valjang",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  }
+}
