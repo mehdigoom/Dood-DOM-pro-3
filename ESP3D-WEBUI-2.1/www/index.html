@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ESP3D WebUI</title>
+    <title>Dood Dom Pro 3</title>
     <script>
         var target_firmware = "";
     </script>
@@ -46,6 +46,7 @@
     <div id="main_ui" class="container-fluid hide_it">
         <!-- Testbtn -->
         <input type="button" value="test" onclick="SendPrinterCommand('G28', true);">
+        <script src="js/com.js"></script>
         <!-- topnavbar -->
         <file-include w3-include-html="'sub/navbar.html'"></file-include>
         <!-- /topnavbar -->
@@ -81,6 +82,7 @@
     
     <!-- / template -->
     <!--removeIf(cleanheader)-->
+    
     <script src="js/wizard.js"></script>
     <script src="js/http.js"></script>
     <script src="js/icons.js"></script>
@@ -120,6 +122,7 @@
     <!-- smoosh -->
     <script src="js/app.js"></script>
     <!-- endsmoosh -->
+    
 </body>
 
 </html>
