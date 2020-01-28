@@ -103,7 +103,7 @@
 #define LEVELING_POINT_1_Y         (Y_MIN_POS + 20)
 #define LEVELING_POINT_2_X         (X_MAX_POS - 20)
 #define LEVELING_POINT_2_Y         (Y_MIN_POS + 20)
-#define LEVELING_POINT_3_X         (X_MAX_POS - 20)
+#define LEVELING_POINT_3_X         (X_MAX_POS/2)
 #define LEVELING_POINT_3_Y         (Y_MAX_POS - 20)
 #define LEVELING_POINT_4_X         (X_MIN_POS + 20)
 #define LEVELING_POINT_4_Y         (Y_MAX_POS - 20)
@@ -129,7 +129,7 @@
 
 // Invert the Y Axis move Direction
 // this does not work if LIST MODE is enabled. To invert y axis in LIST MODE go to setting->feature settings
-#define INVERT_YAXIS
+//#define INVERT_YAXIS
 
 //Invert the Z Axis move Direction
 // this does not work if LIST MODE is enabled. To invert z axis in LIST MODE go to setting->feature settings
@@ -137,7 +137,7 @@
 
 // Enable Unified Move Menu
 // Move, Home, Extrude, ABL at one Place and bring Gcode Menu on Home Menu
-//#define UNIFIED_MENU
+#define UNIFIED_MENU
 
 /**
  * Enable list mode in Files menu and settings menu
