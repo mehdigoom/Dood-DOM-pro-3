@@ -138,6 +138,7 @@ function GetModels(){
     .then(data => {
       // Work with JSON data here
       console.log(data)
+      return(data.Lien)
     })
     .catch(err => {
       alert(err)
