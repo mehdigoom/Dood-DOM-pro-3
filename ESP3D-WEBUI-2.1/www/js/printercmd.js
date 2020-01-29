@@ -56,3 +56,32 @@ function SendPrinterCommandFailed(error_code, response) {
     }
     console.log("printer cmd Error " + error_code + " :" + decode_entitie(response));
 }
+// Costom functions
+function GetModels(){
+    fetch('http://public.valjang.fr/Apipro3.json')
+    .then(response => {
+      return response.json()
+    })
+    .then(data => {
+      // Work with JSON data here
+      console.log(data)
+      return(data.Lien)
+    })
+    .catch(err => {
+      alert(err)
+    })
+}
+function getGcode(Fichierbrute,step){
+    var fso=new ActiveXObject("Scripting.FileSystemObject"); 
+    var file=fso.OpenTextFile(Fichierbrute, 1 ,true);
+    var line=fso.ReadLine(step);
+  
+    file.Close();
+    return(line)
+}
+
+
+function pritGcode(Gcode){
+SendPrinterCommand(gcode,true)
+
+}
