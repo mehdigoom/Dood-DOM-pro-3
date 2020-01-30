@@ -21,12 +21,12 @@ that = this;
 
            
 
-        socket.broadcast.emit('commende',"M117 Connected !");
+        socket.emit('commende',"M117 Connected !");
        
 
     })
 
-        socket.broadcast.emit('Disconnect', socket.id);
+        socket.emit('Disconnect', socket.id);
     });
 
 
