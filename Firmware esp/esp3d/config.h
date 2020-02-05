@@ -19,19 +19,19 @@
 */
 
 //version and sources location
-#define FW_VERSION "2.1.0.b39"
+#define FW_VERSION "1.0.0R2"
 #define REPOSITORY "https://github.com/luc-github/ESP3D"
 
 //Customize ESP3D ////////////////////////////////////////////////////////////////////////
-#define ESP8266_MODEL_NAME "ESP8266"
-#define ESP8266_MODEL_URL "http://espressif.com/en/products/esp8266/"
+#define ESP8266_MODEL_NAME "DoodDomPro"
+#define ESP8266_MODEL_URL "http://dood-studio.com/"
 #define ESP32_MODEL_NAME "ESP32"
 #define ESP32_MODEL_URL "https://www.espressif.com/en/products/hardware/esp-wroom-32/overview"
 #define ESP_MODEL_NUMBER "ESP3D 2.1"
-#define ESP_MANUFACTURER_NAME "Espressif Systems"
-#define ESP_MANUFACTURER_URL "http://espressif.com"
+#define ESP_MANUFACTURER_NAME "Dood"
+#define ESP_MANUFACTURER_URL "http://dood-studio.com/"
 //default name if no mac address is valid
-#define ESP_DEFAULT_NAME "MYESP"
+#define ESP_DEFAULT_NAME "MyDood"
 //if commented name will follow mac address 3 last digits
 //like ESP_XXXXXX (eg:ESP_028E41) to avoid overlap if several ESP3D
 #define ESP_HOST_NAME ESP_DEFAULT_NAME
