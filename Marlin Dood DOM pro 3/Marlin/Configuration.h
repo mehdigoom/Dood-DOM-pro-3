@@ -777,7 +777,7 @@
     #define MAX_JERK_EDIT_VALUES { 20, 20, 0.6, 10 } // ...or, set your own edit limits
   #endif
 #endif
-
+// modif
 #define DEFAULT_EJERK    5.0  // May be used by Linear Advance
 
 /**
