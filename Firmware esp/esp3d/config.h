@@ -52,7 +52,7 @@
 #define NOTIFICATION_FEATURE
 
 //MKS TFT WIFI support see Wiki for wiring
-//#define MKS_TFT_FEATURE
+#define MKS_TFT_FEATURE
 
 //MDNS_FEATURE: this feature allow  type the name defined
 //in web browser by default: http:\\esp8266.local and connect
