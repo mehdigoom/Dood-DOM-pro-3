@@ -135,9 +135,9 @@
 
 
 //Supported FW /////////////////////////////////////////////////////////////
-#define UNKNOWN_FW 0
+#define UNKNOWN_FW 2
 #define REPETIER4DV	1
-#define MARLIN		2
+#define MARLIN		0
 #define MARLINKIMBRA		3
 #define SMOOTHIEWARE	4
 #define REPETIER		5
@@ -351,9 +351,9 @@ typedef enum {
 
 //default values
 #define DEFAULT_WIFI_MODE			AP_MODE
-const char DEFAULT_AP_SSID []  PROGMEM =		"ESP3D";
+const char DEFAULT_AP_SSID []  PROGMEM =		"DoodDOMRPO3";
 const char DEFAULT_AP_PASSWORD [] PROGMEM =	"12345678";
-const char DEFAULT_STA_SSID []  PROGMEM =		"ESP3D";
+const char DEFAULT_STA_SSID []  PROGMEM =		"DoodDOMRPO3";
 const char DEFAULT_STA_PASSWORD [] PROGMEM =	"12345678";
 const byte DEFAULT_STA_IP_MODE  = 				DHCP_MODE;
 const byte DEFAULT_AP_IP_MODE = 				STATIC_IP_MODE;
